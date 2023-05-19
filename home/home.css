@@ -286,8 +286,6 @@
 }
 .cardsa{
   text-decoration: none;
-  color: black;
+  color: white;
 }
-.cardsa:hover{
-  transform: scale(1.1);
-}
+.cardsa h2{font-size: 50px;}
