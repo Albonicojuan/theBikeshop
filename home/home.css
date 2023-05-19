@@ -284,3 +284,10 @@
   border: 3px solid #000000;
   transform: skew(20deg, 0deg) scale(1.1);
 }
+.cardsa{
+  text-decoration: none;
+  color: black;
+}
+.cardsa:hover{
+  transform: scale(1.1);
+}
