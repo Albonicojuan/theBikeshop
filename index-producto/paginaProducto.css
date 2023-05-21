@@ -10,7 +10,7 @@
 }
 
 
-/* inicio cards*/
+/* inicio cards */
 .card-body .btn-success {
   border-radius: 5px;
   background-color: #263e3e;
@@ -68,17 +68,6 @@
 .categoriFil a {
   text-decoration: none;
   color: black;
-
-
-}
-
-.cuadroPrec {
-  display: flex;
-}
-
-.min {
-  display: flex;
-  width: 90%;
 }
 
 .cuadroPre {
@@ -90,6 +79,8 @@
   font-weight: 600;
   border: none;
   font-size: 15px;
+  display: flex;
+  width: 90%;
 }
 
 /* final estylos principal*/
@@ -104,9 +95,6 @@ nav {
   overflow: hidden;
 }
 
-.hambur {
-  background-color: white;
-}
 
 nav a {
   color: black;
@@ -210,21 +198,17 @@ footer {
 
 }
 
-.row {
-  display: flex;
 
-}
 .icom{
   justify-content: center;
 }
 
 .iconfooter {
   margin: 8px;
+  
 }
 
-.ondaFo {
-  background-color: #ededed;
-}
+
 
 /* fin estylos footer*/
 

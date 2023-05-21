@@ -10,7 +10,8 @@
 
 body {   
   background: rgb(48,41,41);
-  background: linear-gradient(90deg, rgba(48,41,41,1) 0%, rgba(97,97,97,1) 51%, rgba(113,107,107,1) 100%);    position: relative;
+  background: linear-gradient(90deg, rgba(48,41,41,1) 0%, rgba(97,97,97,1) 51%, rgba(113,107,107,1) 100%); 
+  position: relative;
  }
 
  #logo {
@@ -37,15 +38,12 @@ div{
 
 
 /* inicio de estylos de navbar*/
- 
+
 nav {
   background-color: black;
   overflow: hidden;
 }
 
-.hambur {
-  background-color: white;
-}
 
 nav a {
   color: black;
@@ -62,12 +60,18 @@ nav form {
   justify-content: center;
 }
 
+nav form {
+  display: flex;
+  align-items: end;
+  margin-top: 8px;
+  margin-right: 16px;
+  justify-content: center;
+}
 nav forma {
   display: flex;
   margin-top: 8px;
   margin-right: 16px;
 }
-
 
 nav input[type="text"] {
   padding: 6px;
@@ -100,7 +104,7 @@ nav button[type="submit"]:hover {
 .loginnav {
   border-radius: 80%;
   height: 40px;
-  color: black;
+  color: rgb(255, 255, 255);
   justify-content: center;
   align-items: center;
   display: flex;
