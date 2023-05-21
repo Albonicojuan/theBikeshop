@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
   
   }
@@ -11,6 +12,7 @@
   
   .hambur {
     background-color: white;
+    margin-left: 130px;
   }
   
   nav a {
