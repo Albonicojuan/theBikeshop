@@ -111,3 +111,24 @@ filtroSelect.addEventListener('change', filtrarBicicletas);
 
 mostrarBicicletas(bicicletas);
 
+function filtrarPorPrecio() {
+  const minimo = parseFloat(document.getElementById("minimo").value);
+  const maximo = parseFloat(document.getElementById("maximo").value);
+
+  const bicicletasContainer = document.getElementById("bicicletas-container");
+  const bicicletasFiltradasPrecios=[]
+  bicicletas.forEach((bicicleta)=>{
+    precio=bicicleta.precio
+    if(precio >= minimo && precio <= maximo ){
+      bicicletasFiltradasPrecios.push(bicicleta)      
+    } else {}
+  }
+ )
+ mostrarBicicletas(bicicletasFiltradasPrecios);
+  
+ }
+
+
+// Agregar un evento click al botón de búsqueda
+const botonFil = document.querySelector(".botonFil");
+botonFil.addEventListener("click", filtrarPorPrecio);
